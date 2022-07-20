@@ -1,0 +1,11 @@
+
+<h3>
+    Регистрация
+</h3>
+<div>
+    <form action="" method="POST">
+        {% csrf_token %}
+        {{reg_form.as_p}}
+        <button class="btn btn-outline-success mt-3" type="submit">Регистрация</button>
+    </form>
+</div>
